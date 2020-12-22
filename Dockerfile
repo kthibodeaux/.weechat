@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk add --no-cache \
   ca-certificates \
-  python \
+  python3 \
   py-websocket-client \
   weechat \
   weechat-perl \
